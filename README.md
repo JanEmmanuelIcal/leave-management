@@ -108,10 +108,14 @@ npm run dev
 Open in your browser:
 👉 http://localhost:3000
 
-👥 Author
-Name	
+👥 Author Name	
+
 Jan Emmanuel Ical	
+
 Kris Bon
+
 Celena Scott
+
 Shiela Fungo
+
 Hugh Derit

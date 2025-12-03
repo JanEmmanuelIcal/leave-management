@@ -1,134 +1,117 @@
 
 
-**Leave Management System**
+📘 Leave Management System – README
+📌 Title
 
-The **Leave Management System (LMS)** is a web-based application designed to streamline and automate the employee leave process within an organization. It simplifies leave requests, approvals, tracking, and reporting—reducing paperwork and improving efficiency for both employees and administrators.
+Leave Management System
 
----
+📄 Description
 
-## **✨ Features**
+The Leave Management System is a web application designed to streamline how employees file leave requests and how administrators manage approvals. It provides an organized platform where users can submit leave applications, check their leave history, and track approval status. Administrators can review, approve, reject, and monitor all leave transactions efficiently.
 
-### **For Employees**
+⭐ Features
+👨‍💼 Employee Features
 
-* Submit leave requests easily
-* View leave balance and history
-* Track request status in real time
-* Receive notifications for approvals/denials
+Secure Login
 
-### **For Managers / Admin**
+Submit Leave Requests
 
-* Approve or reject leave requests
-* View team leave calendar
-* Manage employee accounts and leave types
-* Generate reports for HR and payroll
-* Configure holidays and company-wide events
+Choose leave types:
 
----
+Sick Leave
 
-## **🛠️ Technologies Used**
+Annual Leave
 
-*(Replace with your actual stack)*
+Track request status (Pending, Approved, Rejected)
 
-* **Frontend:** Nsxt,js,Tailwind CSS/ React 
-* **Backend:** Node.js 
+View personal leave history
 
----
+Update personal profile
 
-## **📦 Installation & Setup**
+🛠️ Admin Features
 
-### **1. Clone the Repository**
+Administrator Access
 
-```bash
-git clone https://github.com/JanEmmanuelIcal/leave-management-system.git
-cd leave-management-system
-```
+Email: icaljanemmanue@gmail.com
 
-### **2. Install Dependencies**
+Password: 1234567
 
-```bash
+View all leave requests
+
+Approve or reject submissions
+
+View employee list
+
+Monitor activity logs
+
+Manage system settings
+
+🧰 Technologies Used
+
+Next.js
+
+React.js
+
+Node.js
+
+Tailwind CSS
+
+JavaScript
+
+📂 Project Tree Structure
+leave-management-system/
+│
+├── README.md
+├── package.json
+├── next.config.js
+├── tailwind.config.js
+│
+├── src/
+│   ├── app/
+│   │   ├── layout.jsx
+│   │   ├── page.jsx
+│   │   ├── login/
+│   │   │   └── page.jsx
+│   │   ├── dashboard/
+│   │   │   ├── admin/
+│   │   │   └── employee/
+│   │   ├── leaves/
+│   │   │   ├── new/
+│   │   │   └── view/
+│   │   └── api/
+│   │       ├── auth.js
+│   │       ├── leaves.js
+│   │       └── users.js
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── LeaveForm.jsx
+│   │   └── LeaveCard.jsx
+│   │
+│   └── styles/
+│       └── globals.css
+│
+└── public/
+    ├── logo.png
+    └── assets/
+
+▶️ Steps to Run the Project
+1. Install Dependencies
 npm install
-```
 
-or
+2. Start the Development Server
+npm run dev
 
-```bash
-composer install
-```
+3. Access the System
 
-### **3. Configure Environment Variables**
+Open in your browser:
+👉 http://localhost:3000
 
-Create a `.env` file and add your database, server, and authentication configuration:
-
-```
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=yourpassword
-JWT_SECRET=yourjwtsecret
-```
-
-### **4. Run Database Migrations**
-
-```bash
-npm run migrate
-```
-
-or
-
-```bash
-php artisan migrate
-```
-
-### **5. Start the Server**
-
-```bash
-npm start
-```
-
-or
-
-```bash
-php artisan serve
-```
-
----
-
-## **🗂️ Project Structure**
-
-*(Adjust as needed)*
-
-```
-/src
-  /controllers
-  /models
-  /routes
-  /views
-/public
-/config
-```
-
----
-
-## **📈 Future Enhancements**
-
-* Mobile app version
-* Integration with payroll systems
-* Multi-language support
-* Advanced analytics dashboard
-* Automated email notifications
-
----
-
-## **🤝 Contributing**
-
-Contributions are welcome!
-Feel free to open issues, submit pull requests, or suggest new features.
-
----
-
-## **📄 License**
-
-This project is licensed under the **MIT License**.
-
----
-
-If you want this **more detailed**, **more technical**, or **customized to your actual project**, just tell me your tech stack and features!
+👥 Author
+Name	
+Jan Emmanuel Ical	
+Kris Bon
+Celena Scott
+Shiela Fungo
+Hugh Derit
